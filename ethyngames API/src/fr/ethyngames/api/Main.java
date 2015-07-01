@@ -21,8 +21,8 @@ public class Main extends JavaPlugin implements Listener
 	public static Main plugin;
 	
 	  static String user2, password2;
-	  static String user;
-	static String password;
+	  public static String user;
+	  public static String password;
 	 public static void registerIdentification() {
 	  FileReader fileReader;
 	  try {
