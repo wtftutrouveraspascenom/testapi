@@ -8,6 +8,17 @@ import org.bukkit.plugin.Plugin;
 
 public class Playermanager {
 	
+	
+	/**
+     * Envoie le joueur sur le serveur demander
+     * 
+     * @param player
+     * 			  Le joueur a qui envoyer le title.
+     * @param plugin
+     *            Votre plugin.
+     * @param server
+     *           Le nom du serveur ou envoyer un joueur (ex : "lobby" pour le lobby)
+     */
 	  public static void sendToServer(Player player, Plugin plugin, String server)
 	  {
 	    ByteArrayOutputStream b = new ByteArrayOutputStream();
